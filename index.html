@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bank Selector</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Bank selector And Intrest Calculator</h1>
+    <h4>investment karo life bhar jio</h4>
+    <label for=""> Enter The pricipal Amount</label>
+    <input type="number" name="" id="" >
+    <label for="">Enter The Bank </label>
+    <select name="" onchange="">
+        <option value="SBI">SBI</option>
+        <option value="PNB">PNB</option>
+        <option value="ICICI">ICICI</option>
+        <option value="PNB">PNB</option>
+        <option value="AXIS">AXIS</option>
+    </select>
+   <h1>Your Rate Of Intrest Is : </h1>
+   <h3  id="answer">Total amountw </h3>
+</body>
+<script>
+    function intrest(){
+        let p=document.getElementById("principal")
+        let t=document.getElementById("time")
+        let o=document.getElementById("bank")
+        let i=document.getElementById("intrest")
+        let a=document.getElementById("amount")
+        if(o.value==SBI){
+            let result=(p.value*t.value*7.5)/100;
+            i.innerHTML=result
+            let total=p.value+resulta.innerHTML
+        }
+    }
+    
+</script>
+</html>
